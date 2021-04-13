@@ -7,6 +7,9 @@ using UnityEngine.SceneManagement;
 public class SceneSwitch : MonoBehaviour
 {
 
+        public int answers;
+
+
         public void LoadSzene2()
         {
             SceneManager.LoadScene("Szene2");
